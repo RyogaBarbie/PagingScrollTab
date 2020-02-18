@@ -10,10 +10,17 @@
 		29BBA0AF23FB8FF400687974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBA0AE23FB8FF400687974 /* AppDelegate.swift */; };
 		29BBA0B123FB8FF400687974 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBA0B023FB8FF400687974 /* SceneDelegate.swift */; };
 		29BBA0B323FB8FF400687974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBA0B223FB8FF400687974 /* ViewController.swift */; };
-		29BBA0B623FB8FF400687974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BBA0B423FB8FF400687974 /* Main.storyboard */; };
 		29BBA0B823FB8FF700687974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29BBA0B723FB8FF700687974 /* Assets.xcassets */; };
 		29BBA0BB23FB8FF700687974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BBA0B923FB8FF700687974 /* LaunchScreen.storyboard */; };
 		29BBA0C623FB8FF700687974 /* PagingScrollTabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBA0C523FB8FF700687974 /* PagingScrollTabTests.swift */; };
+		29BBA0D123FBB8E800687974 /* IsPagingEnabledPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBA0D023FBB8E800687974 /* IsPagingEnabledPatternViewController.swift */; };
+		29BBA0D423FBB92B00687974 /* IsPagingEnabledPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBA0D323FBB92B00687974 /* IsPagingEnabledPatternView.swift */; };
+		29BBA0D623FBB98B00687974 /* IsPagingEnabledPatternCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBA0D523FBB98B00687974 /* IsPagingEnabledPatternCell.swift */; };
+		29BBA0D823FBB99F00687974 /* IsPagingEnabledPatternCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29BBA0D723FBB99F00687974 /* IsPagingEnabledPatternCell.xib */; };
+		29BBA0DC23FBBA3D00687974 /* IsPagingEnabledPatternView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29BBA0DB23FBBA3D00687974 /* IsPagingEnabledPatternView.xib */; };
+		29BBA0DE23FBBAD300687974 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBA0DD23FBBAD300687974 /* XibView.swift */; };
+		29BBA0E123FBCA4000687974 /* IsPagingEnabledPatternCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBA0E023FBCA4000687974 /* IsPagingEnabledPatternCollectionView.swift */; };
+		29F466D723FBD34200BE02BF /* IsPagingEnabledPatternCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F466D623FBD34200BE02BF /* IsPagingEnabledPatternCollectionViewFlowLayout.swift */; };
 		4838B55D1B2FCE7872DC8882 /* Pods_PagingScrollTabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD35996BB25FB4C5445F65F /* Pods_PagingScrollTabTests.framework */; };
 		652F311C67E093523C0CFB65 /* Pods_PagingScrollTab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DAC3148681FD44CA380FC92 /* Pods_PagingScrollTab.framework */; };
 /* End PBXBuildFile section */
@@ -34,13 +41,20 @@
 		29BBA0AE23FB8FF400687974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29BBA0B023FB8FF400687974 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		29BBA0B223FB8FF400687974 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		29BBA0B523FB8FF400687974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29BBA0B723FB8FF700687974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29BBA0BA23FB8FF700687974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29BBA0BC23FB8FF700687974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29BBA0C123FB8FF700687974 /* PagingScrollTabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagingScrollTabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BBA0C523FB8FF700687974 /* PagingScrollTabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingScrollTabTests.swift; sourceTree = "<group>"; };
 		29BBA0C723FB8FF700687974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BBA0D023FBB8E800687974 /* IsPagingEnabledPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPagingEnabledPatternViewController.swift; sourceTree = "<group>"; };
+		29BBA0D323FBB92B00687974 /* IsPagingEnabledPatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPagingEnabledPatternView.swift; sourceTree = "<group>"; };
+		29BBA0D523FBB98B00687974 /* IsPagingEnabledPatternCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPagingEnabledPatternCell.swift; sourceTree = "<group>"; };
+		29BBA0D723FBB99F00687974 /* IsPagingEnabledPatternCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IsPagingEnabledPatternCell.xib; sourceTree = "<group>"; };
+		29BBA0DB23FBBA3D00687974 /* IsPagingEnabledPatternView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IsPagingEnabledPatternView.xib; sourceTree = "<group>"; };
+		29BBA0DD23FBBAD300687974 /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
+		29BBA0E023FBCA4000687974 /* IsPagingEnabledPatternCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPagingEnabledPatternCollectionView.swift; sourceTree = "<group>"; };
+		29F466D623FBD34200BE02BF /* IsPagingEnabledPatternCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IsPagingEnabledPatternCollectionViewFlowLayout.swift; path = Cell/IsPagingEnabledPatternCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		5B78718F288C5A1429291E69 /* Pods-PagingScrollTabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagingScrollTabTests.debug.xcconfig"; path = "Target Support Files/Pods-PagingScrollTabTests/Pods-PagingScrollTabTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7DAC3148681FD44CA380FC92 /* Pods_PagingScrollTab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagingScrollTab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF941618414FE1F78CB9217 /* Pods-PagingScrollTab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagingScrollTab.release.xcconfig"; path = "Target Support Files/Pods-PagingScrollTab/Pods-PagingScrollTab.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,10 +108,11 @@
 				29BBA0AE23FB8FF400687974 /* AppDelegate.swift */,
 				29BBA0B023FB8FF400687974 /* SceneDelegate.swift */,
 				29BBA0B223FB8FF400687974 /* ViewController.swift */,
-				29BBA0B423FB8FF400687974 /* Main.storyboard */,
 				29BBA0B723FB8FF700687974 /* Assets.xcassets */,
 				29BBA0B923FB8FF700687974 /* LaunchScreen.storyboard */,
 				29BBA0BC23FB8FF700687974 /* Info.plist */,
+				29BBA0D223FBB8EF00687974 /* IsPagingEnabled */,
+				29BBA0DD23FBBAD300687974 /* XibView.swift */,
 			);
 			path = PagingScrollTab;
 			sourceTree = "<group>";
@@ -111,6 +126,44 @@
 			path = PagingScrollTabTests;
 			sourceTree = "<group>";
 		};
+		29BBA0D223FBB8EF00687974 /* IsPagingEnabled */ = {
+			isa = PBXGroup;
+			children = (
+				29BBA0D023FBB8E800687974 /* IsPagingEnabledPatternViewController.swift */,
+				29BBA0DF23FBC10300687974 /* View */,
+			);
+			path = IsPagingEnabled;
+			sourceTree = "<group>";
+		};
+		29BBA0DA23FBB9B200687974 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				29BBA0D523FBB98B00687974 /* IsPagingEnabledPatternCell.swift */,
+				29BBA0D723FBB99F00687974 /* IsPagingEnabledPatternCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		29BBA0DF23FBC10300687974 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29BBA0D323FBB92B00687974 /* IsPagingEnabledPatternView.swift */,
+				29BBA0DB23FBBA3D00687974 /* IsPagingEnabledPatternView.xib */,
+				29F466D523FBD2CE00BE02BF /* CollectionView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29F466D523FBD2CE00BE02BF /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				29BBA0E023FBCA4000687974 /* IsPagingEnabledPatternCollectionView.swift */,
+				29F466D623FBD34200BE02BF /* IsPagingEnabledPatternCollectionViewFlowLayout.swift */,
+				29BBA0DA23FBB9B200687974 /* Cell */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		2A6C5E837C47EE8B750703E4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,7 +172,6 @@
 				5B78718F288C5A1429291E69 /* Pods-PagingScrollTabTests.debug.xcconfig */,
 				C73963EAB05C6CA03C036D0A /* Pods-PagingScrollTabTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -215,9 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29BBA0D823FBB99F00687974 /* IsPagingEnabledPatternCell.xib in Resources */,
+				29BBA0DC23FBBA3D00687974 /* IsPagingEnabledPatternView.xib in Resources */,
 				29BBA0BB23FB8FF700687974 /* LaunchScreen.storyboard in Resources */,
 				29BBA0B823FB8FF700687974 /* Assets.xcassets in Resources */,
-				29BBA0B623FB8FF400687974 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +335,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29BBA0D623FBB98B00687974 /* IsPagingEnabledPatternCell.swift in Sources */,
+				29BBA0DE23FBBAD300687974 /* XibView.swift in Sources */,
+				29F466D723FBD34200BE02BF /* IsPagingEnabledPatternCollectionViewFlowLayout.swift in Sources */,
 				29BBA0B323FB8FF400687974 /* ViewController.swift in Sources */,
 				29BBA0AF23FB8FF400687974 /* AppDelegate.swift in Sources */,
 				29BBA0B123FB8FF400687974 /* SceneDelegate.swift in Sources */,
+				29BBA0D123FBB8E800687974 /* IsPagingEnabledPatternViewController.swift in Sources */,
+				29BBA0D423FBB92B00687974 /* IsPagingEnabledPatternView.swift in Sources */,
+				29BBA0E123FBCA4000687974 /* IsPagingEnabledPatternCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,14 +366,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		29BBA0B423FB8FF400687974 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29BBA0B523FB8FF400687974 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		29BBA0B923FB8FF700687974 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -455,7 +506,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = y.ryoga.PagingScrollTab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -474,7 +525,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = y.ryoga.PagingScrollTab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
