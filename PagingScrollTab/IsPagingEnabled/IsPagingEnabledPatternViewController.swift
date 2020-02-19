@@ -26,9 +26,10 @@ final class IsPagingEnabledPatternViewController: UIViewController, UICollection
         flowLayout.scrollDirection = .horizontal
         flowLayout.itemSize = CGSize(width: cellWidth, height: 80)
         flowLayout.minimumLineSpacing = 10
-        let center = isPagingEnabledPatternView.center.x
+        let center = isPagingEnabledPatternView.collectionView.contentOffset.x + isPagingEnabledPatternView.collectionView.bounds.width * 0.5
         let leftInset = center - CGFloat(cellWidth/2)
-        flowLayout.sectionInset = UIEdgeInsets(top: 0, left: leftInset, bottom: 0, right: 0)
+        let rightInset = leftInset
+        flowLayout.sectionInset = UIEdgeInsets(top: 0, left: leftInset, bottom: 0, right: rightInset)
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -42,12 +43,16 @@ final class IsPagingEnabledPatternViewController: UIViewController, UICollection
 
 extension IsPagingEnabledPatternViewController {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 20
+        return 1000
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = isPagingEnabledPatternView.collectionView.dequeueReusableCell(withReuseIdentifier: "IsPagingEnabledPatternCell", for: indexPath)
-        cell.contentView.backgroundColor = UIColor.systemOrange
+        if (indexPath.item % 2) == 0 {
+            cell.contentView.backgroundColor = UIColor.systemOrange
+        } else {
+            cell.contentView.backgroundColor = UIColor.black
+        }
         return cell
     }
 }
